@@ -27,9 +27,9 @@ const chalk = require("chalk")
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = true //auto reading in gc (true to on, false to off)
-global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
-global.autoRecord = true //auto recording (true to on, false to off)
+global.autoReadGc = false //auto reading in gc (true to on, false to off)
+global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
+global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //documents variants
@@ -41,23 +41,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['6285822347348'] //ur owner number
-global.ownername = "ArullOfc"
+global.owner = ['6281315017916'] //ur owner number
+global.ownername = "Khalif"
 global.ytname = "YT:ARULL OFC " //ur yt chanel name
-global.socialm = "GitHub: Warikrr" //ur github or insta name
-global.location = "Indonesia, Kalimantan Selatan, Kotabaru" //ur location
+global.socialm = "GitHub: Alif135" //ur github or insta name
+global.location = "Indonesia, Sulawesi Tengah, Palu" //ur location
 
 //bot bombdy
-global.botname = "ArullBotz" //ur bot name
+global.botname = "BOTz" //ur bot name
 global.websitex = "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/eFNTvNt.mp4' } //gif and video menu
 global.packname = "Sticker By"
-global.author = "ArullBotz"
+global.author = "Khalif"
 global.themeemoji = "🐶"
 global.reactmoji = "🗿"
-global.ownertag = ['ArullOfc'] //ur owner tag
-global.ownernummenu = ['6285822347348'] //ur owner number in menu and all
-global.watermark = "ArullBotz" //ur watermark
+global.ownertag = ['Khalif'] //ur owner tag
+global.ownernummenu = ['6281315017916'] //ur owner number in menu and all
+global.watermark = "© Khalif" //ur watermark
 global.botscript = "https://youtu.be/Gr6yuCbSGTI"
 global.linkz1 = "https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS"
 global.linkz2 = "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg"
@@ -104,9 +104,9 @@ global.mess = {
     wait: '*Sabar...Orang sabar disayang janda*',
     linkm: '*Linknya Mana?*',
     error: 'Error!',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    ban: 'Kamu telah di banned owner, Chat owner untuk unban',
+    nsfw: 'Fitur NSFW belum di aktifkan, Chat owner untuk mengaktifkan',
+    banChat: 'BOT telah di banned di group ini, Chat owner untuk unban'
 }
 global.limitawal = {
     premium: "Infinity",
@@ -132,7 +132,7 @@ global.APIs = {
 
 // key
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': 'f684421baa',
 }
 //menu logo maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
